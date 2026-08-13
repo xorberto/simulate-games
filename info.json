@@ -1,0 +1,294 @@
+{
+  "games": [
+    {
+      "name": "Arc Raiders",
+      "path": "Arc Raiders",
+      "executable": "PioneerGame.exe"
+    },
+    {
+      "name": "Arena Breakout Infinite",
+      "path": "Arena Breakout Infinite\\ABInfinite\\Binaries\\Win64",
+      "executable": "UAGame.exe"
+    },
+    {
+      "name": "Arknights Endfield",
+      "path": "Arknights Endfield\\EndField Game",
+      "executable": "Endfield.exe"
+    },
+    {
+      "name": "Assassin's Creed Black Flag Resynced",
+      "path": "Assassin's Creed Black Flag Resynced",
+      "executable": "ACBlackFlag.exe"
+    },
+    {
+      "name": "Battlefield 6",
+      "path": "Battlefield 6",
+      "executable": "bf6.exe"
+    },
+    {
+      "name": "Blue Protocol Star Resonance",
+      "path": "Blue Protocol Star Resonance\\bpsr",
+      "executable": "BPSR_STEAM.exe"
+    },
+    {
+      "name": "Comet Browser",
+      "path": "Comet\\Perplexity\\Comet\\Application",
+      "executable": "comet.exe"
+    },
+    {
+      "name": "Delta Force",
+      "path": "Delta Force\\Game\\DeltaForce\\Binaries\\Win64",
+      "executable": "DeltaForceClient-Win64-Shipping.exe"
+    },
+    {
+      "name": "Destiny 2",
+      "path": "Destiny 2",
+      "executable": "destiny2.exe"
+    },
+    {
+      "name": "Duet Night Abyss",
+      "path": "Duet Night Abyss",
+      "executable": "EM-Win64-Shipping.exe"
+    },
+    {
+      "name": "EA Sports FC 26",
+      "path": "EA SPORTS FC 26",
+      "executable": "FC26.exe"
+    },
+    {
+      "name": "EMPULSE",
+      "path": "EMPULSE Demo\\Orion\\Binaries\\Win64",
+      "executable": "OrionClient-Win64-Shipping.exe"
+    },
+    {
+      "name": "Enginefall",
+      "path": "Enginefall Demo\\Coltrane\\Binaries\\Win64",
+      "executable": "ColtraneClient-Win64-Shipping.exe"
+    },
+    {
+      "name": "EscapeTheBackrooms",
+      "path": "Win64",
+      "executable": "Backrooms-Win64-Shipping.exe"
+    },
+    {
+      "name": "EVE Online",
+      "path": "Eve Online",
+      "executable": "exefile.exe"
+    },
+    {
+      "name": "Fallout 4",
+      "path": "Fallout 4",
+      "executable": "Fallout4.exe"
+    },
+    {
+      "name": "Fallout 76",
+      "path": "Fallout76",
+      "executable": "Fallout76.exe"
+    },
+    {
+      "name": "Fortnite",
+      "path": "Fortnite\\FortniteGame\\Binaries\\Win64",
+      "executable": "FortniteClient-Win64-Shipping.exe"
+    },
+    {
+      "name": "Genshin Impact",
+      "path": "Genshin Impact\\Genshin Impact game",
+      "executable": "GenshinImpact.exe"
+    },
+    {
+      "name": "GearUP",
+      "path": "",
+      "executable": "Gearup_ball.exe"
+    },
+    {
+      "name": "GODDESS OF VICTORY: NIKKE",
+      "path": "NIKKE\\NIKKE\\Game",
+      "executable": "nikke.exe"
+    },
+    {
+      "name": "Grounded 2",
+      "path": "Grounded 2\\WinGRTS",
+      "executable": "Grounded2-WinGRTS-Shipping.exe"
+    },
+    {
+      "name": "Highguard",
+      "path": "Highguard\\Win64",
+      "executable": "HighguardClient-Win64-Shipping.exe"
+    },
+    {
+      "name": "Honkai: Star Rail",
+      "path": "Star Rail\\Games",
+      "executable": "StarRail.exe"
+    },
+    {
+      "name": "Hunt: Showdown 1896",
+      "path": "Hunt Showdown\\bin\\win_x64",
+      "executable": "HuntGame.exe"
+    },
+    {
+      "name": "League of Legends",
+      "path": "Game",
+      "executable": "League of Legends.exe"
+    },
+    {
+      "name": "Marvel Rivals",
+      "path": "MarvelRivals",
+      "executable": "MarvelRivals_Launcher.exe"
+    },
+    {
+      "name": "NTE: Neverness to Everness",
+      "path": "Neverness To Everness\\Client\\WindowsNoEditor\\HT\\Binaries\\Win64",
+      "executable": "HTGame.exe"
+    },
+    {
+      "name": "OldSchool RuneScape",
+      "path": "win64",
+      "executable": "osclient.exe"
+    },
+    {
+      "name": "Once Human",
+      "path": "Once Human",
+      "executable": "ONCE_HUMAN.exe"
+    },
+    {
+      "name": "Opera",
+      "path": "Opera GX",
+      "executable": "opera.exe"
+    },
+    {
+      "name": "Path of Exile 2",
+      "path": "Grinding Gear Games\\Path of Exile 2",
+      "executable": "pathofexile.exe"
+    },
+    {
+      "name": "PUBG: Battlegrounds",
+      "path": "PUBG\\TslGame\\Binaries\\Win64",
+      "executable": ""
+    },
+    {
+      "name": "Pragmata",
+      "path": "PRAGMATA SKETCHBOOK",
+      "executable": "PRAGMATA_SKETCHBOOK.exe"
+    },
+    {
+      "name": "RAID: Shadow Legends",
+      "path": "RAID Shadow Legends",
+      "executable": "Raid.exe"
+    },
+    {
+      "name": "Ragnarok: The New World",
+      "path": "roworld",
+      "executable": "game.exe"
+    },
+    {
+      "name": "Risk of Rain 2",
+      "path": "Risk of Rain 2",
+      "executable": "Risk of Rain 2.exe"
+    },
+    {
+      "name": "Roblox",
+      "path": "Roblox\\Versions\\version-xxxxxxxx",
+      "executable": "RobloxPlayerBeta.exe"
+    },
+    {
+      "name": "Rune Diсe",
+      "path": "Rune Dice",
+      "executable": "Rune Dice.exe"
+    },
+    {
+      "name": "Runescape",
+      "path": "win64",
+      "executable": "runescape.exe"
+    },
+    {
+      "name": "Shift At Midnight",
+      "path": "Shift At Midnight Demo",
+      "executable": "ShiftAtMidnight.exe"
+    },
+    {
+      "name": "skate.",
+      "path": "skate",
+      "executable": "skate.exe"
+    },
+    {
+      "name": "STALZONE",
+      "path": "bin",
+      "executable": "stalcraftw.exe"
+    },
+    {
+      "name": "Storm Lancers",
+      "path": "Storm Lancers Demo",
+      "executable": "StormLancersDemo.exe"
+    },
+    {
+      "name": "Summoners War",
+      "path": "Summoners War\\common\\Summoners War",
+      "executable": "SummonersWar.exe"
+    },
+    {
+      "name": "Terminull Brigade",
+      "path": "TerminullBrigade\\Project Rogueteers\\Rogueteers\\Binaries\\Win64",
+      "executable": "Rouge-Win64-Shipping.exe"
+    },
+    {
+      "name": "The Elder Scrolls Online",
+      "path": "Zenimax Online\\The Elder Scrolls Online\\game\\client",
+      "executable": "eso64.exe"
+    },
+    {
+      "name": "The Mound: Omen of Cthulhu",
+      "path": "The Mound Omen of Cthulhu\\Binaries\\Win64",
+      "executable": "TheMound-Win64-Shipping.exe"
+    },
+    {
+      "name": "Torchlight Infinite",
+      "path": "Torchlight_Infinite\\UE_game\\Binaries\\Win64",
+      "executable": "Torchlight_Infinite.exe"
+    },
+    {
+      "name": "Valorant",
+      "path": "Riot Games\\VALORANT\\live\\ShooterGame\\Binaries\\Win64",
+      "executable": "VALORANT-Win64-Shipping.exe"
+    },
+    {
+      "name": "Vindictus",
+      "path": "Vindictus\\Vindictus_x64",
+      "executable": ""
+    },
+    {
+      "name": "Where Winds Meet",
+      "path": "wwm_standard\\Engine\\Binaries\\Win64r",
+      "executable": "wwm.exe"
+    },
+    {
+      "name": "World of Tanks: HEAT",
+      "path": "WoT HEAT",
+      "executable": "wgcs_api.exe"
+    },
+    {
+      "name": "World of Warcraft: Midnight",
+      "path": "World of Warcraft\\_retail_",
+      "executable": "Wow.exe"
+    },
+    {
+      "name": "Wuthering Waves",
+      "path": "Wuthering Waves\\Wuthering Waves Game\\Client\\Binaries\\Win64",
+      "executable": "Wuthering Waves.exe"
+    },
+    {
+      "name": "Yu-Gi-Oh! Master Duel",
+      "path": "Yu-Gi-Oh!  Master Duel",
+      "executable": "masterduel.exe"
+    },
+    {
+      "name": "Zenless Zone Zero",
+      "path": "ZenlessZoneZero Game",
+      "executable": "ZenlessZoneZero.exe"
+    },
+    {
+      "name": "2XKO",
+      "path": "2XKO\\Live\\Lion\\Binaries\\Win64",
+      "executable": "Lion-Win64-Shipping.exe"
+    }
+  ]
+}

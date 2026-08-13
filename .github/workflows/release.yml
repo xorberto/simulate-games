@@ -1,0 +1,86 @@
+name: Build and Release
+
+on:
+  push:
+    tags:
+      - 'v*' # Triggers workflow when a tag starting with "v" is pushed
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build ${{ matrix.target }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - target: linux
+            build_dir: build/linux
+            artifact_name: simulate-games-linux
+            exe_name: launcher
+            cmake_flags: ""
+
+          - target: windows
+            build_dir: build/windows
+            artifact_name: simulate-games-windows
+            exe_name: launcher.exe
+            cmake_flags: "-DCMAKE_SYSTEM_NAME=Windows -DCMAKE_CXX_COMPILER=x86_64-w64-mingw32-g++ -DCMAKE_C_COMPILER=x86_64-w64-mingw32-gcc"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install MinGW
+        if: matrix.target == 'windows'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y mingw-w64
+
+      - name: Configure CMake
+        run: cmake -B ${{ matrix.build_dir }} -DCMAKE_BUILD_TYPE=Release ${{ matrix.cmake_flags }}
+
+      - name: Build
+        run: cmake --build ${{ matrix.build_dir }} --config Release
+
+      - name: Prepare Release Package
+        shell: bash
+        run: |
+          mkdir release_pkg
+          cp ${{ matrix.build_dir }}/Release/${{ matrix.exe_name }} release_pkg/
+          cp ${{ matrix.build_dir }}/Release/info.json release_pkg/
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.artifact_name }}
+          path: release_pkg/*
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download Linux Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: simulate-games-linux
+          path: simulate-games-linux
+
+      - name: Download Windows Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: simulate-games-windows
+          path: simulate-games-windows
+
+      - name: Zip Packages
+        run: |
+          zip -j -r simulate-games-linux.zip simulate-games-linux
+          zip -j -r simulate-games-windows.zip simulate-games-windows
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            simulate-games-linux.zip
+            simulate-games-windows.zip
+          generate_release_notes: true
